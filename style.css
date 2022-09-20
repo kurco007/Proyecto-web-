@@ -8,9 +8,14 @@ body{
     margin: 0;
     padding: 0;
 }
-.nav-bar {
+/*** menú ***/
+header{
     position: absolute;
+    width: 100%;
     background-color: #333A56;
+}
+.nav-bar {
+
     display: flex;
     margin: 0;
     padding: 0;
@@ -27,7 +32,7 @@ body{
 .nav-menu{
     display: flex;
     width: 75%;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .nav-menu ul{
     list-style: none;
@@ -62,16 +67,51 @@ body{
     color: #333A56;
     font-weight: 500;
 }
+/** Fin de menu **/
+/** Contenido **/
+.contenedor{
+    display: flex;
+    width: 100%;
+}
+.espacio1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width:55%;
+    margin-top: 70px;
+    padding: 5px;
 
-@media screen and (max-width: 600px) {
+
+}
+.espacio2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 45%;
+    margin-top: 70px;
+    padding: 5px;
+
+
+}
+
+/** Fin de parte 1 **/
+/** Responsive **/
+@media screen and (max-width: 720px) {
+    /*  Menu  */
     .nav-bar.responsive {
             position: relative;
+
         }
-    
         .nav-menu.responsive a.icon {
             position: absolute;
             right: 0;
             top: 0;
-    
+}
+.espacio1{
+
+    margin-left: 0 ;
+
 }
 }
