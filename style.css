@@ -26,7 +26,6 @@ header{
 .logo{
     display: flex;
     justify-content: left;
-    background-color: red;
     padding: 10px;
     width: 20%;
 }
