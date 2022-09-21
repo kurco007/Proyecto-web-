@@ -5,6 +5,7 @@ body{
     display: flex;
     background-color: #52658f;
     font-family: 'Montserrat',sans-serif;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -13,26 +14,30 @@ header{
     position: absolute;
     width: 100%;
     background-color: #333A56;
+
 }
 .nav-bar {
-
     display: flex;
     margin: 0;
     padding: 0;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
 }
 .logo{
     display: flex;
-    justify-content: left;
-    background-color: red;
-    padding: 10px;
+    align-items: center;
     width: 20%;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    padding: 0 20px;
 }
 .nav-menu{
     display: flex;
-    width: 75%;
     justify-content: flex-end;
+    align-items: center;
+    width: 75%;
 }
 .nav-menu ul{
     list-style: none;
@@ -49,10 +54,9 @@ header{
 }
 
 
-.itemtext{
+.item-menu a{
 
     color: #F7F5E6;
-    float: right;
     text-decoration: none;
     padding: 10px;
     font-weight: 500;
@@ -100,17 +104,8 @@ header{
 /** Responsive **/
 @media screen and (max-width: 720px) {
     /*  Menu  */
-    .nav-bar.responsive {
-            position: relative;
 
-        }
-        .nav-menu.responsive a.icon {
-            position: absolute;
-            right: 0;
-            top: 0;
-}
 .espacio1{
-
     margin-left: 0 ;
 
 }
