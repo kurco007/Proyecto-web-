@@ -29,9 +29,9 @@ header{
     width: 20%;
 }
 .logo img{
-    width: 60px;
-    height: 60px;
-    padding: 0 20px;
+    width: 65px;
+    height: 65px;
+    padding-left: 100px;
 }
 .nav-menu{
     display: flex;
@@ -83,7 +83,7 @@ header{
     align-items: center;
     background-color: red;
     width:55%;
-    margin-top: 70px;
+    margin-top: 175px;
     padding: 5px;
 
 
@@ -94,13 +94,72 @@ header{
     align-items: center;
     background-color: blue;
     width: 45%;
-    margin-top: 70px;
+    margin-top: 175px;
     padding: 5px;
 
 
 }
 
 /** Fin de parte 1 **/
+/*  Area del typing  */
+
+.texto1{
+    position: absolute;
+    display: block;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.contenedort p {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+    color: #e8e8ee;
+}
+
+.contenedort p span.typed-text {
+    font-weight: normal;
+    color: #e8e8ee;
+}
+
+.contenedort p span.cursor {
+    display: inline-block;
+    background-color: #333A56;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+
+.contenedort p span.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0% {
+        background-color: #333A56;
+    }
+
+    49% {
+        background-color: #333A56;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    99% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: #333A56;
+    }
+}
+/** Fin de area de typing **/
 /** Responsive **/
 @media screen and (max-width: 720px) {
     /*  Menu  */
