@@ -96,7 +96,33 @@ header{
     width: 45%;
     margin-top: 175px;
     padding: 5px;
+}
+.espacio2 img{
+    z-index: -1;
+    position: relative;
+    display: flex;
+    max-height: 400px;
+    max-width: 400px;
+}
 
+.espacio2 label{
+    z-index: 1;
+}
+.espacio2 label span {
+    background-color: red;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin-right: -50px;
+    margin-top: -20px;
+}
+
+.espacio2 span p{
+    z-index: 1;
+    text-align: center;
 
 }
 
@@ -123,7 +149,7 @@ header{
 
 .contenedort p span.typed-text {
     font-weight: normal;
-    color: #e8e8ee;
+    color: #3c3c9e;
 }
 
 .contenedort p span.cursor {
