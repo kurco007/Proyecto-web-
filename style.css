@@ -89,7 +89,7 @@ header{
     margin-top: 175px;
     padding: 5px;
 }
-.espacio2 img{
+.espacio2 iframe{
     z-index: -1;
     position: relative;
     display: flex;
@@ -108,7 +108,7 @@ header{
     width: 300px;
     height: 100px;
     margin-right: -25px;
-    margin-top: -25px;
+    margin-top: -50px;
     border: #52658f 1px solid;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -116,6 +116,9 @@ header{
 .espacio2 span p{
     z-index: 1;
     text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #2a2f46;
 }
 
 /** Fin de parte 1 **/
