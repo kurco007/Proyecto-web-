@@ -5,8 +5,8 @@ body{
     display: flex;
     background-color: #52658f;
     font-family: 'Montserrat',sans-serif;
-    width: 100%;
     margin: 0;
+    width: 100%;
     padding: 0;
 }
 /*** menú ***/
@@ -14,14 +14,12 @@ header{
     position: absolute;
     width: 100%;
     background-color: #333A56;
-
 }
 .nav-bar {
     display: flex;
     margin: 0;
     padding: 0;
     width: 100%;
-    padding: 5px;
 }
 .logo{
     display: flex;
@@ -46,14 +44,11 @@ header{
 
 
 }
-
 .nav-menu  ul li {
     display: flex;
     float: right;
     margin:  5px;
 }
-
-
 .item-menu a{
 
     color: #F7F5E6;
@@ -85,14 +80,11 @@ header{
     width:55%;
     margin-top: 175px;
     padding: 5px;
-
-
 }
 .espacio2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
     width: 45%;
     margin-top: 175px;
     padding: 5px;
@@ -101,29 +93,29 @@ header{
     z-index: -1;
     position: relative;
     display: flex;
-    max-height: 400px;
-    max-width: 400px;
+    width: 500px;
 }
-
 .espacio2 label{
     z-index: 1;
 }
 .espacio2 label span {
-    background-color: red;
+    z-index: 1;
+    background-color: #52658f;
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 300px;
     height: 100px;
-    margin-right: -50px;
-    margin-top: -20px;
+    margin-right: -25px;
+    margin-top: -25px;
+    border: #52658f 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
 .espacio2 span p{
     z-index: 1;
     text-align: center;
-
 }
 
 /** Fin de parte 1 **/
@@ -149,12 +141,12 @@ header{
 
 .contenedort p span.typed-text {
     font-weight: normal;
-    color: #3c3c9e;
+    color: #333A56;
 }
 
 .contenedort p span.cursor {
     display: inline-block;
-    background-color: #333A56;
+    background-color: #e8e8ee;
     margin-left: 0.1rem;
     width: 3px;
     animation: blink 1s infinite;
@@ -165,33 +157,11 @@ header{
 }
 
 @keyframes blink {
-    0% {
-        background-color: #333A56;
-    }
-
-    49% {
-        background-color: #333A56;
-    }
-
-    50% {
-        background-color: transparent;
-    }
-
-    99% {
-        background-color: transparent;
-    }
-
-    100% {
-        background-color: #333A56;
-    }
+    0% {background-color: #e8e8ee;}
+    49% {background-color: #e8e8ee;}
+    50% {background-color: transparent;}
+    99% {background-color: transparent;}
+    100% {background-color: #e8e8ee;}
 }
 /** Fin de area de typing **/
 /** Responsive **/
-@media screen and (max-width: 720px) {
-    /*  Menu  */
-
-.espacio1{
-    margin-left: 0 ;
-
-}
-}
