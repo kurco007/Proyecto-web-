@@ -2,8 +2,7 @@
 
 
 body{
-    display: flex;
-    background-color: #52658f;
+    background-color: #7885a0;
     font-family: 'Montserrat',sans-serif;
     margin: 0;
     width: 100%;
@@ -77,7 +76,7 @@ header{
     justify-content: center;
     align-items: center;
     background-color: red;
-    width:55%;
+    width:45%;
     margin-top: 175px;
     padding: 5px;
 }
@@ -85,7 +84,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: 55%;
     margin-top: 175px;
     padding: 5px;
 }
@@ -100,15 +99,15 @@ header{
 }
 .espacio2 label span {
     z-index: 1;
-    background-color: #52658f;
+    background-color: #7885a0;
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 300px;
     height: 100px;
-    margin-right: -25px;
-    margin-top: -50px;
+    margin-right: -50px;
+    margin-top: -25px;
     border: #52658f 1px solid;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -133,7 +132,7 @@ header{
     margin-top: 50px;
 }
 .contenedort p {
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding: 0.5rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
@@ -167,4 +166,40 @@ header{
     100% {background-color: #e8e8ee;}
 }
 /** Fin de area de typing **/
+/** Parte de resumen **/
+.parte-resumen2{
+    display: flex;
+    margin:20px 0;
+}
+.resumen-bio{
+    display: block;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+.resumen-bio p{
+    display: block;
+    margin: 0;
+    font-size: 35px;
+    font-weight: 500;
+    color: #333A56;
+}
+
+.skills1, .skills2{
+    display: flex;
+    width: 50%;
+}
+.skills2{
+    right: 0;
+}
+.skills{
+    list-style: none;
+    font-size: 30px;
+    font-weight: 500;
+    color: #333A56;
+}
+
+/** Fin de parte de resumen **/
 /** Responsive **/
