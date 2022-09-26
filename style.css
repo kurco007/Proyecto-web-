@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800;900&display=swap');
 
-
 body{
     background-color: #7885a0;
     font-family: 'Montserrat',sans-serif;
@@ -167,10 +166,6 @@ header{
 }
 /** Fin de area de typing **/
 /** Parte de resumen **/
-.parte-resumen2{
-    display: flex;
-    margin:20px 0;
-}
 .resumen-bio{
     display: block;
     justify-content: center;
@@ -186,6 +181,11 @@ header{
     font-weight: 500;
     color: #333A56;
 }
+/**** skills ****/
+.parte-resumen2 {
+    display: flex;
+    margin: 20px;
+}
 
 .skills1, .skills2{
     display: flex;
@@ -194,12 +194,85 @@ header{
 .skills2{
     right: 0;
 }
+.skills1 ul, .skills2 ul{
+    width: 100%;
+}
 .skills{
     list-style: none;
     font-size: 30px;
     font-weight: 500;
     color: #333A56;
 }
+.skill{
+    width: 100%;
+}
+.contenedor-skill{
+    margin-top: -20px ;
+    padding: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #e8e8ee;
+    border-radius: 5px;
+}
+.txt {
 
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-sizing: border-box;
+}
+.txt p{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+    margin-bottom: -10px;
+    padding: 0;
+    font-size: .55em;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.html {
+    width: 90%;
+    background-color: orangered;
+}
+
+.css {
+    width: 80%;
+    background-color:rgb(58, 58, 255);
+}
+
+
+.js {
+    width: 65%;
+    background-color: yellow;
+}
+
+.php {
+    width: 60%;
+    background-color: #5c5ac9;
+}
+.python {
+    width: 60%;
+    background-color: blue;
+}
+/**** Fin de skills ****/
 /** Fin de parte de resumen **/
+/**** Footer ****/
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #333A56;
+    align-items: center;
+    color: #e8e8ee;
+    font-weight: 400;
+}
+
+
+/****  Fin de Footer ****/
 /** Responsive **/
