@@ -70,6 +70,7 @@ header{
     display: flex;
     width: 100%;
 }
+/*** Area de trabajo (preview) ***/
 .espacio1{
     display: flex;
     justify-content: center;
